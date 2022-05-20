@@ -73,6 +73,7 @@ export class Form {
         if(!result){
             const message = `성함이 일치하지 않습니다.`;
             this.MODAL.fail(message);
+            this.toggle_ipt_okay(this.$iptName, false);
             this.reset_ipt("name");
         }else{
             this.toggle_ipt_okay(this.$iptName, true);
