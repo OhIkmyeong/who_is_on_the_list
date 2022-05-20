@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+[id^="form-"].off{
+    display:none;
+}
+
+input.okay{
+    background:var(--mint-op);
+    border:2px solid var(--mint); color:var(--mint)}
+input.fail{border:2px solid red;}
